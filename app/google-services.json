@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "253969975414",
+    "firebase_url": "https://rfid-a6381.firebaseio.com",
+    "project_id": "rfid-a6381",
+    "storage_bucket": "rfid-a6381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253969975414:android:b9876d98236f5ec1",
+        "android_client_info": {
+          "package_name": "com.example.hackdroid.smartbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253969975414-adbi1olbtobgbfr0ikr87enq4jflclat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackdroid.smartbag",
+            "certificate_hash": "52f50e68a6b3d5707c9af4c7c3316b67fe3e365b"
+          }
+        },
+        {
+          "client_id": "253969975414-bc2b0ee1f6dvsm9frd91pfrhanreiqjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJV1vvxjt80dGJueQ_ZBBsO7ZqTWAHuL0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253969975414-bc2b0ee1f6dvsm9frd91pfrhanreiqjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

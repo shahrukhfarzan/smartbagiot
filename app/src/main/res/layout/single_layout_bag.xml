@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bagImage"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:padding="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bagName"
+            android:textSize="18sp"
+            android:text="Product Name goes Here"
+            />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

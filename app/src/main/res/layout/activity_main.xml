@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_marginTop="20sp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+       android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/tap"
+        android:scaleType="centerCrop"
+
+        android:id="@+id/blutoothConnect"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="30sp"
+            android:id="@+id/piredListhint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18sp"
+            android:text="@string/pired_list" />
+
+        <ListView
+            android:id="@+id/piredList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/piredListhint"
+            android:layout_marginTop="26sp"></ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Select Time"
+                android:id="@+id/selectTime"/>
+
+            <Button
+                android:id="@+id/reminderCreation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Create Reminder"
+                android:theme="@style/PrimaryButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:weightSum="3">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect To bag"
+                android:id="@+id/btBagcon"
+                />
+            <Button
+                android:id="@+id/addItemBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+
+                android:text="@string/go_to_add" />
+
+            <Button
+                android:id="@+id/goToBag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:text="GO TO BAG"
+
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart Bag</string>
+    <string name="go_to_add">Add Item into Bag</string>
+    <string name="pired_list">List Of Device</string>
+</resources>
